@@ -6,7 +6,7 @@ This tool offers the following features:
   * Enable disabled ports on access switches
   * Convert ACL syntax from IOS to Junos and vice versa
 
-This tool depends on [netmiko](https://github.com/ktbyers/netmiko) (for viewing/configuring devices) and [trigger](https://trigger.readthedocs.io/en/latest/) (for converting ACL syntax) modules, so installing netmiko and trigger modules prior to running this tool is a MUST.
+This tool depends on [netmiko](https://pypi.python.org/pypi/netmiko) (for viewing/configuring devices) and [trigger](https://trigger.readthedocs.io/en/latest/) (for converting ACL syntax) modules, so installing netmiko and trigger modules prior to running this tool is a MUST.
 
 # Installation
 ```
