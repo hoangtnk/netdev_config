@@ -9,13 +9,14 @@ This tool offers the following features:
 This tool depends on [netmiko](https://pypi.python.org/pypi/netmiko) (for viewing/configuring devices) and [trigger](https://trigger.readthedocs.io/en/latest/) (for converting ACL syntax) modules, so installing them prior to running this tool is a MUST.
 
 # Installation
+Install the following python modules:
 ```
 pip3 install cryptography
 pip3 install paramiko
 pip3 install netmiko
 pip3 install colorama
 ```
-For installing trigger module, please visit: [Trigger](https://trigger.readthedocs.io/en/latest/installation.html)
+For installing and setting up trigger, please visit: [Trigger](https://trigger.readthedocs.io/en/latest/installation.html)
 
 # Usage
 Assign execute permission to the script:
