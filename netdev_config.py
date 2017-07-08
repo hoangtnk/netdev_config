@@ -146,14 +146,14 @@ def open_ssh_conn(ip):
    
     global all_devices_output
    
-    juniper_devices = ["10.199.252.2", "10.199.250.33", "10.199.250.202", "10.199.250.182", "10.199.250.162", "10.199.250.178"]
+    juniper_devices = ["192.0.2.5", "192.0.2.6"]
     each_device_output = {}
    
     try:
         if ip not in juniper_devices:
-            net_connect = ConnectHandler(device_type="cisco_ios", ip=ip, username="pyscripts", password="x@kalM0jsEM93pkXYl&B")
+            net_connect = ConnectHandler(device_type="cisco_ios", ip=ip, username="netdev_config", password="SEc43T$$")
         else:
-            net_connect = ConnectHandler(device_type="juniper_junos", ip=ip, username="pyscripts", password="x@kalM0jsEM93pkXYl&B")
+            net_connect = ConnectHandler(device_type="juniper_junos", ip=ip, username="netdev_config", password="SEc43T$$")
        
         if choice == "1":
             for cmd in commands_list:
