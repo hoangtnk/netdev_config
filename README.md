@@ -15,7 +15,7 @@ pip3 install paramiko
 pip3 install netmiko
 pip3 install colorama
 ```
-For installing trigger module, please visit: [Trigger](https://trigger.readthedocs.io/en/latest/)
+For installing trigger module, please visit: [Trigger](https://trigger.readthedocs.io/en/latest/installation.html)
 
 # Usage
 Assign execute permission to the script:
